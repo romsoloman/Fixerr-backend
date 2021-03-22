@@ -21,8 +21,6 @@ async function query(filterBy = {}) {
         users = users.map(user => {
             delete user.password
             user.createdAt = ObjectId(user._id).getTimestamp()
-            // Returning fake fresh data
-            // user.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
             return user
         })
         return users
@@ -96,7 +94,12 @@ async function add(user) {
             username: user.username,
             password: user.password,
             fullname: user.fullname,
-            score: user.score || 0
+            location: user.location,
+            memberSince: user.memberSince,
+            avgResponseTime: user.avgResponseTime,
+            lastDelivery: user.lastDelivery,
+            level: user.level,
+            imgUrl: user.imgUrl,
         }
         const collection = await dbService.getCollection('user')
         await collection.insertOne(userToAdd)

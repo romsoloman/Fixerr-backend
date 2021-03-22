@@ -76,3 +76,39 @@
 3/22/2021, 4:04:36 PM - INFO - Server is running on port: 3031 
 3/22/2021, 4:05:12 PM - INFO - Server is running on port: 3031 
 3/22/2021, 4:05:15 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:32:15 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:34:32 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:34:37 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:35:18 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:35:21 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:35:23 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:37:51 PM - DEBUG - auth.service - signup with username: rom, fullname: rom (sid: 4RGkallku5hBmgqSfDwVtCSQJqAbdDu6)
+3/22/2021, 4:37:52 PM - DEBUG - auth.route - new account created: {"username":"rom","password":"$2b$10$3qqT09JYv8GHmlGx5NEbUOWljcSa87CSQGPK.QuaW9F/EsBax4I0W","fullname":"rom","score":0,"_id":"6058abbfce64fd1a8950170c"} (sid: 4RGkallku5hBmgqSfDwVtCSQJqAbdDu6)
+3/22/2021, 4:37:52 PM - DEBUG - auth.service - login with username: rom (sid: 4RGkallku5hBmgqSfDwVtCSQJqAbdDu6)
+3/22/2021, 4:40:16 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:40:19 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:51:02 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:52:30 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:53:07 PM - DEBUG - auth.service - signup with username: rom, fullname: rom (sid: 3wMIJcVlCwPQ1WZozf6-u1XXcDCefbZH)
+3/22/2021, 4:53:08 PM - ERROR - Failed to signup ReferenceError: utilService is not defined (sid: 3wMIJcVlCwPQ1WZozf6-u1XXcDCefbZH)
+3/22/2021, 4:53:56 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:55:42 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:56:43 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:57:15 PM - INFO - Server is running on port: 3031 
+3/22/2021, 4:57:33 PM - DEBUG - auth.service - signup with username: rom, fullname: rom (sid: hBTqJ37aAqzorwqcEeXAJHPTktvf6Lh1)
+3/22/2021, 4:57:33 PM - DEBUG - auth.route - new account created: {"username":"rom","password":"$2b$10$rGt/yY7Mlz7xEXpQR7eRhuCuoFTUR.akTVvjLi5QrKpejLrh6wo22","fullname":"rom","location":"Israel","memberSince":1616425053549,"avgResponseTime":"3 Hours","lastDelivery":"About 7 Hours","_id":"6058b05d153b531c2e6922c5"} (sid: hBTqJ37aAqzorwqcEeXAJHPTktvf6Lh1)
+3/22/2021, 4:57:33 PM - DEBUG - auth.service - login with username: rom (sid: hBTqJ37aAqzorwqcEeXAJHPTktvf6Lh1)
+3/22/2021, 5:01:49 PM - INFO - Server is running on port: 3031 
+3/22/2021, 5:04:30 PM - DEBUG - auth.service - signup with username: rom, fullname: rom (sid: g3DnMW-gQiNi87PMFtC6aGyzTvEzhHTX)
+3/22/2021, 5:04:31 PM - DEBUG - auth.route - new account created: {"username":"rom","password":"$2b$10$HkVJdLA4KnBJss04pgPW/uyT.q3FrQAMe2RMq3t76V4ShmLh0CuwK","fullname":"rom","location":"Israel","memberSince":1616425471075,"avgResponseTime":"1 Hours","lastDelivery":"About 2 Hours","_id":"6058b1ff54b59e1c6146c6fb"} (sid: g3DnMW-gQiNi87PMFtC6aGyzTvEzhHTX)
+3/22/2021, 5:04:31 PM - DEBUG - auth.service - login with username: rom (sid: g3DnMW-gQiNi87PMFtC6aGyzTvEzhHTX)
+3/22/2021, 5:13:30 PM - INFO - Server is running on port: 3031 
+3/22/2021, 5:19:38 PM - DEBUG - auth.service - login with username: rom (sid: lg59n9Mx6xTLiTdy3ZXPnURNL-IFOsH5)
+3/22/2021, 5:19:38 PM - ERROR - Failed to Login Invalid username or password (sid: lg59n9Mx6xTLiTdy3ZXPnURNL-IFOsH5)
+3/22/2021, 5:20:03 PM - DEBUG - auth.service - signup with username: rom, fullname: rom (sid: lg59n9Mx6xTLiTdy3ZXPnURNL-IFOsH5)
+3/22/2021, 5:20:03 PM - DEBUG - auth.route - new account created: {"username":"rom","password":"$2b$10$vZyHCZshwqzUXDgz0mkT3.jFOo87x9vBjWbT6UrmuIwCejxAxbb.m","fullname":"rom","location":"Israel","memberSince":1616426403218,"avgResponseTime":"5 Hours","lastDelivery":"About 2 Hours","imgUrl":"https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60","_id":"6058b5a3d610151ce613638c"} (sid: lg59n9Mx6xTLiTdy3ZXPnURNL-IFOsH5)
+3/22/2021, 5:20:03 PM - DEBUG - auth.service - login with username: rom (sid: lg59n9Mx6xTLiTdy3ZXPnURNL-IFOsH5)
+3/22/2021, 5:20:39 PM - INFO - Server is running on port: 3031 
+3/22/2021, 5:20:59 PM - DEBUG - auth.service - signup with username: rom, fullname: rom (sid: ezG6cWxYtFqCGEj8hv0D8WG7diFBLIA5)
+3/22/2021, 5:20:59 PM - DEBUG - auth.route - new account created: {"username":"rom","password":"$2b$10$LfLRMnphHaUFwhPekRIbB.icVbIksZ.qP/N1B/1wEW5uKvT0gndla","fullname":"rom","location":"Israel","memberSince":1616426459630,"avgResponseTime":"6 Hours","lastDelivery":"About 2 Hours","level":1,"imgUrl":"https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60","_id":"6058b5db8f9b691d3ce02a8a"} (sid: ezG6cWxYtFqCGEj8hv0D8WG7diFBLIA5)
+3/22/2021, 5:20:59 PM - DEBUG - auth.service - login with username: rom (sid: ezG6cWxYtFqCGEj8hv0D8WG7diFBLIA5)
