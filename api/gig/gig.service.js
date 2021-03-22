@@ -38,12 +38,6 @@ async function getById(gigId) {
         const collection = await dbService.getCollection('gig')
         const gig = await collection.findOne({ '_id': ObjectId(gigId) })
 
-        gig.reviews = await reviewService.query({ byGigId: ObjectId(gig._id) })
-        gig.reviews = gig.reviews.map(review => {
-            delete review.byGig
-            return review
-        })
-
         return gig
     } catch (err) {
         logger.error(`while finding gig ${gigId}`, err)
@@ -78,7 +72,7 @@ async function update(gig) {
             _id: ObjectId(gig._id),
             title: gig.title,
             price: gig.price,
-            rating: gig.title,
+            rating: gig.rating,
             about: gig.about,
             deliveryTime: gig.deliveryTime,
             tags: gig.tags,
@@ -89,7 +83,8 @@ async function update(gig) {
                 "Vector File"
             ],
             creator: gig.creator,
-            reviews: [],
+            imgUrls: gig.imgUrls,
+            reviews: gig.reviews,
             createdAt: Date.now(),
         }
         const collection = await dbService.getCollection('gig')
@@ -105,7 +100,7 @@ async function add(gig) {
     const gigToSave = {
         title: gig.title,
         price: gig.price,
-        rating: gig.title,
+        rating: gig.rating,
         about: gig.about,
         deliveryTime: gig.deliveryTime,
         tags: gig.tags,
@@ -116,8 +111,8 @@ async function add(gig) {
             "Vector File"
         ],
         creator: gig.creator,
-        reviews: [],
-        imgsUrls: gig.imgsUrls,
+        reviews: gig.reviews,
+        imgUrls: gig.imgUrls,
         createdAt: Date.now(),
     }
     const collection = await dbService.getCollection('gig')
