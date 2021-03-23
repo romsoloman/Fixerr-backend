@@ -10,6 +10,15 @@ async function getGig(req, res) {
         res.status(500).send({ err: 'Failed to get gig' })
     }
 }
+async function getGigByUser(req, res) {
+    try {
+        const gig = await gigService.getByUserId(req.params.id)
+        res.send(gig)
+    } catch (err) {
+        logger.error('Failed to get gig', err)
+        res.status(500).send({ err: 'Failed to get gig' })
+    }
+}
 
 async function getGigs(req, res) {
     try {
@@ -61,5 +70,6 @@ module.exports = {
     getGigs,
     addGig,
     deleteGig,
-    updateGig
+    updateGig,
+    getGigByUser,
 }

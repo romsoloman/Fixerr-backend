@@ -10,7 +10,8 @@ module.exports = {
     getByGigName,
     remove,
     update,
-    add
+    add,
+    getByUserId,
 }
 
 async function query(filterBy = {}) {
@@ -33,7 +34,17 @@ async function query(filterBy = {}) {
     }
 }
 
-async function getById(userId) {
+async function getById(gigId) {
+    try {
+        const collection = await dbService.getCollection('gig')
+        const gig = await collection.findOne({ '_id': ObjectId(gigId) })
+        return gig
+    } catch (err) {
+        logger.error(`while finding gig ${gigId}`, err)
+        throw err
+    }
+}
+async function getByUserId(userId) {
     try {
         const collection = await dbService.getCollection('gig')
         const gig = await collection.findOne({ 'creator._id': ObjectId(userId) })

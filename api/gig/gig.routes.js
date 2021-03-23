@@ -1,6 +1,6 @@
 const express = require('express')
 const { requireAuth, requireAdmin } = require('../../middlewares/requireAuth.middleware')
-const { getGig, getGigs, deleteGig, updateGig, addGig } = require('./gig.controller')
+const { getGig, getGigs, deleteGig, updateGig, addGig, getGigByUser } = require('./gig.controller')
 const { addReview, getReviews, deleteReview } = require('../review/review.controller')
 const router = express.Router()
 
@@ -9,6 +9,7 @@ const router = express.Router()
 
 router.get('/', getGigs)
 router.get('/:id', getGig)
+router.get('/:id/profile', getGigByUser)
 router.get('/:id/review', getReviews)
 // router.post('/', requireAuth, requireAdmin, addGig) // WITH AUTH 
 router.post('/', addGig)
