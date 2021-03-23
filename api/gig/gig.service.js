@@ -33,14 +33,13 @@ async function query(filterBy = {}) {
     }
 }
 
-async function getById(gigId) {
+async function getById(userId) {
     try {
         const collection = await dbService.getCollection('gig')
-        const gig = await collection.findOne({ '_id': ObjectId(gigId) })
-
+        const gig = await collection.findOne({ 'creator._id': ObjectId(userId) })
         return gig
     } catch (err) {
-        logger.error(`while finding gig ${gigId}`, err)
+        logger.error(`while finding gig ${userId}`, err)
         throw err
     }
 }
@@ -115,6 +114,7 @@ async function add(gig) {
         imgUrls: gig.imgUrls,
         createdAt: Date.now(),
     }
+    gigToSave.creator._id = ObjectId(gigToSave.creator._id)
     const collection = await dbService.getCollection('gig')
     await collection.insertOne({ ...gigToSave })
     return gigToSave;
