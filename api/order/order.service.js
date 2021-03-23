@@ -15,17 +15,8 @@ module.exports = {
 
 async function query(criteria) {
     try {
-        console.log('criteria', criteria);
         const collection = await dbService.getCollection('order')
-        var orders = await collection.find({}).toArray()
-        console.log('orders', orders);
-        // orders = orders.map(order => {
-        //     order.inStock = true
-        //     order.createdAt = ObjectId(order._id).getTimestamp()
-        //     // Returning fake fresh data
-        //     // order.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
-        //     return order
-        // })
+        var orders = await collection.find({ "seller._id": ObjectId(criteria) }).toArray()
         return orders
     } catch (err) {
         logger.error('cannot find orders', err)
@@ -37,13 +28,6 @@ async function getById(orderId) {
     try {
         const collection = await dbService.getCollection('order')
         const order = await collection.findOne({ '_id': ObjectId(orderId) })
-
-        // order.reviews = await reviewService.query({ byorderId: ObjectId(order._id) })
-        // order.reviews = order.reviews.map(review => {
-        //     delete review.byorder
-        //     return review
-        // })
-
         return order
     } catch (err) {
         logger.error(`while finding order ${orderId}`, err)
@@ -103,7 +87,6 @@ async function update(order) {
 }
 
 async function add(order) {
-    console.log('order service', order);
     const orderToSave = {
         createdAt: order.createdAt,
         buyer: order.buyer,
@@ -119,6 +102,8 @@ async function add(order) {
         ],
         status: "Done"
     }
+    orderToSave.buyer._id = ObjectId(orderToSave.buyer._id)
+    orderToSave.seller._id = ObjectId(orderToSave.seller._id)
     const collection = await dbService.getCollection('order')
     await collection.insertOne({ ...orderToSave })
     return orderToSave;
