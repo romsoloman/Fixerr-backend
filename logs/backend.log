@@ -165,6 +165,7 @@
 3/22/2021, 5:20:59 PM - DEBUG - auth.service - signup with username: rom, fullname: rom (sid: ezG6cWxYtFqCGEj8hv0D8WG7diFBLIA5)
 3/22/2021, 5:20:59 PM - DEBUG - auth.route - new account created: {"username":"rom","password":"$2b$10$LfLRMnphHaUFwhPekRIbB.icVbIksZ.qP/N1B/1wEW5uKvT0gndla","fullname":"rom","location":"Israel","memberSince":1616426459630,"avgResponseTime":"6 Hours","lastDelivery":"About 2 Hours","level":1,"imgUrl":"https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60","_id":"6058b5db8f9b691d3ce02a8a"} (sid: ezG6cWxYtFqCGEj8hv0D8WG7diFBLIA5)
 3/22/2021, 5:20:59 PM - DEBUG - auth.service - login with username: rom (sid: ezG6cWxYtFqCGEj8hv0D8WG7diFBLIA5)
+<<<<<<< HEAD
 =======
 >>>>>>> a2e0f8b1a873081b9ac6ae656b77e7a64cf8058f
 3/22/2021, 5:24:24 PM - INFO - Server is running on port: 3031 
@@ -245,3 +246,6 @@
 3/23/2021, 1:06:50 PM - INFO - Server is running on port: 3031 
 3/23/2021, 1:07:37 PM - INFO - Server is running on port: 3031 
 3/23/2021, 1:07:38 PM - INFO - Server is running on port: 3031 
+=======
+3/22/2021, 5:30:57 PM - INFO - Server is running on port: 3031 
+>>>>>>> 86eb84bef9b47f238f85cb5f75bb59e0a6e6073a
