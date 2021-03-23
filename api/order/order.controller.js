@@ -13,7 +13,7 @@ async function getOrder(req, res) {
 
 async function getOrders(req, res) {
     try {
-        const orders = await orderService.query()
+        const orders = await orderService.query(req.query.userId)
         res.send(orders)
     } catch (err) {
         logger.error('Failed to get orders', err)

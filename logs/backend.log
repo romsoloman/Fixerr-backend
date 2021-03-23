@@ -170,3 +170,78 @@
 3/22/2021, 5:24:24 PM - INFO - Server is running on port: 3031 
 >>>>>>> abd79f7b531e5b25b652243e21d5e367ec5f5ebf
 3/22/2021, 5:29:29 PM - INFO - Server is running on port: 3031 
+3/22/2021, 5:55:28 PM - DEBUG - auth.service - login with username: rom (sid: ZYPlGdAtDUYuqyGuAlVIs1JpcDe8JeoY)
+3/22/2021, 6:09:29 PM - DEBUG - auth.service - login with username: rom (sid: ZYPlGdAtDUYuqyGuAlVIs1JpcDe8JeoY)
+3/22/2021, 6:37:38 PM - DEBUG - auth.service - login with username: rom (sid: ZYPlGdAtDUYuqyGuAlVIs1JpcDe8JeoY)
+3/22/2021, 6:37:38 PM - ERROR - Failed to Login Invalid username or password (sid: ZYPlGdAtDUYuqyGuAlVIs1JpcDe8JeoY)
+3/22/2021, 6:38:15 PM - DEBUG - auth.service - login with username: rom (sid: ZYPlGdAtDUYuqyGuAlVIs1JpcDe8JeoY)
+3/22/2021, 7:01:01 PM - DEBUG - auth.service - login with username: rom (sid: NcjaIh-Qjm0_BpnoYZmNTUj1AqSMW7te)
+3/22/2021, 7:03:17 PM - DEBUG - auth.service - login with username: rom (sid: DyFXSby3ZoCnabIFnpg4yFus3CX0V3Lc)
+3/22/2021, 7:14:48 PM - DEBUG - auth.service - signup with username: oded123, fullname: oded (sid: fRbfsAjhNp0gpCMq-Ny6-XfhUKNWG0o0)
+3/22/2021, 7:14:48 PM - DEBUG - auth.route - new account created: {"username":"oded123","password":"$2b$10$EPgmneQwcTUl/BaaavC.wOgw6vU1LYn99T.uIyXf37kzINWYStBoC","fullname":"oded","location":"Israel","memberSince":1616433288196,"avgResponseTime":"4 Hours","lastDelivery":"About 6 Hours","level":1,"imgUrl":"https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60","_id":"6058d0886c4af91dbe5a6c54"} (sid: fRbfsAjhNp0gpCMq-Ny6-XfhUKNWG0o0)
+3/22/2021, 7:14:48 PM - DEBUG - auth.service - login with username: oded123 (sid: fRbfsAjhNp0gpCMq-Ny6-XfhUKNWG0o0)
+3/22/2021, 8:17:16 PM - INFO - Server is running on port: 3031 
+3/22/2021, 10:41:46 PM - INFO - Server is running on port: 3031 
+3/22/2021, 10:43:10 PM - DEBUG - auth.service - login with username: rom (sid: DAsA4wBWFy5DOXqw6ySx4LgYqhdh1W5R)
+3/23/2021, 11:57:29 AM - DEBUG - auth.service - login with username: rom (sid: LISg2ifggnc1nTSrbI4cY7paT1ij6OO2)
+3/23/2021, 11:59:41 AM - DEBUG - auth.service - login with username: rom (sid: 8ihkyF-MF4RvSlOR2pa8RI1NQsKcXH8u)
+3/23/2021, 12:27:57 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:28:11 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:29:31 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:29:39 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:29:47 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:30:31 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:31:28 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:31:40 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:31:42 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:31:43 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:31:45 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:34:00 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:34:02 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:34:03 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:34:24 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:34:25 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:36:45 PM - DEBUG - auth.service - signup with username: oded, fullname: oded (sid: hzJxwoMUbU12nLUnke4v-I8x310NUI1E)
+3/23/2021, 12:36:45 PM - DEBUG - auth.route - new account created: {"username":"oded","password":"$2b$10$vpIuCavu9unzwTXllbosXeDEgwmpRQFwTWfKeZXpEnPHJ5TxCCJ/u","fullname":"oded","location":"Israel","memberSince":1616495805386,"avgResponseTime":"6 Hours","lastDelivery":"About 7 Hours","level":1,"imgUrl":"https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60","_id":"6059c4bd5e9a9e36a0be1116"} (sid: hzJxwoMUbU12nLUnke4v-I8x310NUI1E)
+3/23/2021, 12:36:45 PM - DEBUG - auth.service - login with username: oded (sid: hzJxwoMUbU12nLUnke4v-I8x310NUI1E)
+3/23/2021, 12:38:37 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:39:04 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:39:05 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:40:14 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:40:15 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:44:34 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:44:36 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:44:37 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:44:38 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:44:39 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:46:28 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:46:29 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:47:02 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:47:04 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:47:05 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:47:07 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:47:38 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:47:39 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:47:40 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:47:41 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:49:30 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:49:33 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:49:34 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:49:35 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:49:36 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:51:36 PM - DEBUG - auth.service - login with username: rom (sid: 2Zl1EoNUc2b9dt0WCK_a3mdCGuJh1TFF)
+3/23/2021, 12:52:48 PM - DEBUG - auth.service - login with username: oded (sid: vHE1v3_VqxgBe8YwzoC4_VCAA5y5HNiy)
+3/23/2021, 12:54:34 PM - DEBUG - auth.service - signup with username: rom, fullname: rom (sid: n0J0GdOmgarFYQkgePU9Dt9ImjK5ZB2J)
+3/23/2021, 12:54:34 PM - DEBUG - auth.route - new account created: {"username":"rom","password":"$2b$10$Uz.or7ytR5lJkd07yLM13eJi8WXVAKLXbZUTV2QmUMJWbdkhnRWzy","fullname":"rom","location":"Israel","memberSince":1616496874397,"avgResponseTime":"5 Hours","lastDelivery":"About 3 Hours","level":1,"imgUrl":"https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60","_id":"6059c8ea24c4d138693b3103"} (sid: n0J0GdOmgarFYQkgePU9Dt9ImjK5ZB2J)
+3/23/2021, 12:54:34 PM - DEBUG - auth.service - login with username: rom (sid: n0J0GdOmgarFYQkgePU9Dt9ImjK5ZB2J)
+3/23/2021, 12:57:21 PM - DEBUG - auth.service - signup with username: oded, fullname: oded (sid: geqZF9Ml-mpvWp4LY5yYncA2NH14sXUT)
+3/23/2021, 12:57:21 PM - DEBUG - auth.route - new account created: {"username":"oded","password":"$2b$10$BmdpwDYODJID/pAAi.t.eeg4ZH5Q/.LnSt/Va/PYLs/zr0gHaLqNK","fullname":"oded","location":"Israel","memberSince":1616497041676,"avgResponseTime":"3 Hours","lastDelivery":"About 1 Hours","level":1,"imgUrl":"https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60","_id":"6059c99124c4d138693b3105"} (sid: geqZF9Ml-mpvWp4LY5yYncA2NH14sXUT)
+3/23/2021, 12:57:21 PM - DEBUG - auth.service - login with username: oded (sid: geqZF9Ml-mpvWp4LY5yYncA2NH14sXUT)
+3/23/2021, 12:57:57 PM - DEBUG - auth.service - login with username: rom (sid: xlg3zkD7tq9Ym1zSBQQyz4aF1O_FC0E7)
+3/23/2021, 12:58:25 PM - INFO - Server is running on port: 3031 
+3/23/2021, 12:58:26 PM - INFO - Server is running on port: 3031 
+3/23/2021, 1:06:47 PM - INFO - Server is running on port: 3031 
+3/23/2021, 1:06:49 PM - INFO - Server is running on port: 3031 
+3/23/2021, 1:06:50 PM - INFO - Server is running on port: 3031 
+3/23/2021, 1:07:37 PM - INFO - Server is running on port: 3031 
+3/23/2021, 1:07:38 PM - INFO - Server is running on port: 3031 

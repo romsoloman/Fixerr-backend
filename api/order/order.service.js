@@ -13,11 +13,12 @@ module.exports = {
     add
 }
 
-async function query() {
+async function query(criteria) {
     try {
+        console.log('criteria', criteria);
         const collection = await dbService.getCollection('order')
-        // var orders = await collection.find(criteria).toArray()
-        var orders = await collection.find({}).toArray();
+        var orders = await collection.find({}).toArray()
+        console.log('orders', orders);
         // orders = orders.map(order => {
         //     order.inStock = true
         //     order.createdAt = ObjectId(order._id).getTimestamp()
