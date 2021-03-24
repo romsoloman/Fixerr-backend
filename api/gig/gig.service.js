@@ -16,6 +16,7 @@ module.exports = {
 
 async function query(filterBy = {}) {
     const criteria = _buildCriteria(filterBy)
+    console.log('criteria', criteria);
     try {
         const collection = await dbService.getCollection('gig')
         var gigs = await collection.find(criteria).sort({ _id: -1 }).toArray()
@@ -135,24 +136,33 @@ function _buildCriteria(filterBy) {
     const criteria = {}
     if (filterBy.name) {
         const nameCriteria = filterBy.name.toLowerCase()
-        criteria.$and = [
+        criteria.$or = [
             {
                 tags: nameCriteria
             },
         ]
     }
-    // if (filterBy.price) {
-    //     const minPriceCriteria = +filterBy.price.minPrice
-    //     const maxPriceCriteria = +filterBy.price.maxPrice
-    //     criteria.$and = [
-    //         {
-    //             minPrice: minPriceCriteria
-    //         },
-    //         {
-    //             maxPriceCriteria: maxPriceCriteria
-    //         },
-    //     ]
-    // }
+    if (filterBy.price) {
+        const price = JSON.parse(filterBy.price)
+        criteria.price = {};
+        if (price.minPrice) {
+            const minPriceCriteria = price.minPrice;
+            criteria.price = { $gte: minPriceCriteria }
+        }
+        if (price.maxPrice) {
+            const maxPriceCriteria = price.maxPrice;
+            criteria.price = { ...criteria.price, $lte: maxPriceCriteria }
+        }
+    }
+    if (filterBy.rating) {
+        const ratingCriteria = +filterBy.rating
+        criteria.rating = { $eq: ratingCriteria }
+    }
+    if (filterBy.level) {
+        const levelCriteria = +filterBy.level
+        criteria["creator.level"] = { $eq: levelCriteria }
+
+    }
     return criteria
 }
 
