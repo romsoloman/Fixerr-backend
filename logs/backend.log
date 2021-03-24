@@ -367,3 +367,9 @@
 3/24/2021, 12:00:13 PM - INFO - Server is running on port: 3031 
 3/24/2021, 12:01:59 PM - INFO - Server is running on port: 3031 
 3/24/2021, 12:12:14 PM - INFO - Server is running on port: 3031 
+3/24/2021, 12:30:29 PM - DEBUG - auth.service - login with username: rom (sid: hx0TxLKZ0pBGU_mJGUyw3CzIOuk7qOsP)
+3/24/2021, 12:36:15 PM - DEBUG - auth.service - login with username: oded (sid: KjPgsuQ_n3aB-yz0fyK-rvL4Lvm-ZwIn)
+3/24/2021, 1:06:29 PM - INFO - Server is running on port: 3031 
+3/24/2021, 1:06:51 PM - INFO - Server is running on port: 3031 
+3/24/2021, 1:07:36 PM - INFO - Server is running on port: 3031 
+3/24/2021, 1:13:02 PM - DEBUG - auth.service - login with username: rom (sid: BULVpUUf1qzYRts1nMjNaaNOHb2K-00P)

@@ -23,7 +23,7 @@ async function signup(username, password, fullname) {
     if (!username || !password || !fullname) return Promise.reject('fullname, username and password are required!')
 
     const hash = await bcrypt.hash(password, saltRounds)
-    return userService.add({ username, password: hash, fullname, location: "Israel", memberSince: Date.now(), avgResponseTime: `${parseInt(Math.random() * 7) + 1} Hours`, lastDelivery: `About ${parseInt(Math.random() * 7) + 1} Hours`, imgUrl: 'https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60', level: 1 })
+    return userService.add({ username, password: hash, fullname, location: "Israel", memberSince: Date.now(), avgResponseTime: `${parseInt(Math.random() * 7) + 1} Hours`, lastDelivery: `About ${parseInt(Math.random() * 7) + 1} Hours`, imgUrl: `https://randomuser.me/api/portraits/men/${parseInt(Math.random() * 99) + 1}.jpg`, level: 1 })
 }
 
 module.exports = {
