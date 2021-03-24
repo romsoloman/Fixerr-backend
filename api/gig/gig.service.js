@@ -19,7 +19,7 @@ async function query(filterBy = {}) {
     try {
         const collection = await dbService.getCollection('gig')
         // var gigs = await collection.find(criteria).toArray()
-        var gigs = await collection.find({}).toArray();
+        var gigs = await collection.find({}).sort({ _id: -1 }).toArray()
         // gigs = gigs.map(gig => {
         //     gig.inStock = true
         //     gig.createdAt = ObjectId(gig._id).getTimestamp()
