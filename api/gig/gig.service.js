@@ -81,10 +81,10 @@ async function update(gig) {
         const gigToSave = {
             _id: ObjectId(gig._id),
             title: gig.title,
-            price: gig.price,
-            rating: gig.rating,
+            price: +gig.price,
+            rating: +gig.rating,
             about: gig.about,
-            deliveryTime: gig.deliveryTime,
+            deliveryTime: +gig.deliveryTime,
             tags: gig.tags,
             extras: [
                 "Source File",
