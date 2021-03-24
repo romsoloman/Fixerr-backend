@@ -37,6 +37,11 @@ const { connectSockets } = require('./services/socket.service')
 const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
 app.all('*', setupAsyncLocalStorage)
 
+app.get('/api/setup-session', (req, res) => {
+    req.session.connectedAt = Date.now()
+    console.log('setup-session:', req.sessionID);
+    res.end()
+})
 // TODO: check with app.use
 
 app.use('/api/auth', authRoutes)

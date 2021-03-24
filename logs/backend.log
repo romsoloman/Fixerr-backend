@@ -421,6 +421,7 @@
 3/24/2021, 2:57:06 PM - INFO - Server is running on port: 3031 
 3/24/2021, 3:15:02 PM - DEBUG - auth.service - login with username: oded (sid: gy5X1kiU-3u1k-YM4RHRqitX2ZQfjE3O)
 3/24/2021, 4:56:49 PM - DEBUG - auth.service - login with username: oded (sid: 8L5XehRsLWV_cpH-K7mujGyOkQ8usqA6)
+<<<<<<< HEAD
 3/24/2021, 6:56:10 PM - INFO - Server is running on port: 3031 
 3/24/2021, 6:57:52 PM - INFO - Server is running on port: 3031 
 3/24/2021, 6:58:07 PM - ERROR - Failed to get gigs | {} (sid: fkQXtqw2urQASIzcSQlTOmOI7I31faeH)
@@ -498,3 +499,31 @@
 3/24/2021, 8:17:20 PM - INFO - Server is running on port: 3031 
 3/24/2021, 8:19:16 PM - INFO - Server is running on port: 3031 
 3/24/2021, 8:19:45 PM - INFO - Server is running on port: 3031 
+=======
+3/24/2021, 5:25:34 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:07:53 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:18:03 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:21:06 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:22:17 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:26:10 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:26:12 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:32:06 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:38:45 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:47:24 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:49:07 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:50:03 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:52:21 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:55:46 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:56:10 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:57:16 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:57:18 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:58:59 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:59:37 PM - INFO - Server is running on port: 3031 
+3/24/2021, 6:59:53 PM - INFO - Server is running on port: 3031 
+3/24/2021, 7:00:02 PM - INFO - Server is running on port: 3031 
+3/24/2021, 7:02:26 PM - INFO - Server is running on port: 3031 
+3/24/2021, 7:02:32 PM - INFO - Server is running on port: 3031 
+3/24/2021, 7:02:43 PM - INFO - Server is running on port: 3031 
+3/24/2021, 7:20:30 PM - INFO - Server is running on port: 3031 
+>>>>>>> a618945689dde5c0d2d3219fa7b34a4d652fed11
+3/24/2021, 8:21:20 PM - INFO - Server is running on port: 3031 
