@@ -376,3 +376,43 @@
 3/24/2021, 1:17:37 PM - INFO - Server is running on port: 3031 
 3/24/2021, 1:17:40 PM - INFO - Server is running on port: 3031 
 3/24/2021, 1:18:04 PM - INFO - Server is running on port: 3031 
+3/24/2021, 1:25:04 PM - DEBUG - auth.service - login with username: oded (sid: mDUZ6UIJkbLeT_UYVV8LIuibtpBKvENx)
+3/24/2021, 1:29:42 PM - DEBUG - auth.service - signup with username: noam, fullname: Noam Cohen (sid: Zteqftrsbsw3gdV50vs654IYspK9UkyJ)
+3/24/2021, 1:29:42 PM - DEBUG - auth.route - new account created: {"username":"noam","password":"$2b$10$WAjVbI.y74JHYEoq6iRE0eRTF6shb3LNPVIEzrD2O6RSw31OIpzPO","fullname":"Noam Cohen","location":"Israel","memberSince":1616585382160,"avgResponseTime":"3 Hours","lastDelivery":"About 5 Hours","level":1,"imgUrl":"https://randomuser.me/api/portraits/men/98.jpg","_id":"605b22a6823dcb6209216124"} (sid: Zteqftrsbsw3gdV50vs654IYspK9UkyJ)
+3/24/2021, 1:29:42 PM - DEBUG - auth.service - login with username: noam (sid: Zteqftrsbsw3gdV50vs654IYspK9UkyJ)
+3/24/2021, 1:39:21 PM - DEBUG - auth.service - signup with username: Avram, fullname: Avrham Sherf (sid: WKTx9mTCk3Rucs902M8UDAVXaQh-XtTa)
+3/24/2021, 1:39:22 PM - DEBUG - auth.route - new account created: {"username":"Avram","password":"$2b$10$/75KjjEGYciwL.9p8C./WeX9.2Z0zucYMW9WaXGk7Xmg4SoW3fuHK","fullname":"Avrham Sherf","location":"Israel","memberSince":1616585962062,"avgResponseTime":"3 Hours","lastDelivery":"About 3 Hours","level":1,"imgUrl":"https://randomuser.me/api/portraits/men/3.jpg","_id":"605b24ea823dcb6209216126"} (sid: WKTx9mTCk3Rucs902M8UDAVXaQh-XtTa)
+3/24/2021, 1:39:22 PM - DEBUG - auth.service - login with username: Avram (sid: WKTx9mTCk3Rucs902M8UDAVXaQh-XtTa)
+3/24/2021, 1:48:05 PM - DEBUG - auth.service - login with username: oded (sid: GhNuJNGdnyOWUH5s3EitRlMEQbIJ9TWa)
+3/24/2021, 1:53:56 PM - DEBUG - auth.service - login with username: rom (sid: a8tCbKIsibPI_s5rsKGV502uha1z5Hnr)
+3/24/2021, 2:07:22 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:08:23 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:10:03 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:10:08 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:10:10 PM - ERROR - Failed to get gigs | {} (sid: JpW0r6jBqycO83aoVqxrB4EffGBoBrCk)
+3/24/2021, 2:10:10 PM - ERROR - Failed to get gigs | {} (sid: 9Y_oYGSSXAUfgGjj-loPsj68dczvXgl3)
+3/24/2021, 2:10:13 PM - ERROR - Failed to get gigs | {} (sid: 9Y_oYGSSXAUfgGjj-loPsj68dczvXgl3)
+3/24/2021, 2:10:15 PM - ERROR - Failed to get gigs | {} (sid: 9Y_oYGSSXAUfgGjj-loPsj68dczvXgl3)
+3/24/2021, 2:10:33 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:10:53 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:11:49 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:12:06 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:12:50 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:12:55 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:13:53 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:14:34 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:15:31 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:15:49 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:16:20 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:17:04 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:17:27 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:17:29 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:17:41 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:19:40 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:19:53 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:20:04 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:20:36 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:27:30 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:27:47 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:33:54 PM - INFO - Server is running on port: 3031 
+3/24/2021, 2:36:03 PM - INFO - Server is running on port: 3031 

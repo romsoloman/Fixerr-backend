@@ -17,9 +17,10 @@ module.exports = {
 async function query(filterBy = {}) {
     const criteria = _buildCriteria(filterBy)
     try {
+        console.log('criteria', criteria);
         const collection = await dbService.getCollection('gig')
-        // var gigs = await collection.find(criteria).toArray()
-        var gigs = await collection.find({}).sort({ _id: -1 }).toArray()
+        var gigs = await collection.find(criteria).sort({ _id: -1 }).toArray()
+        // var gigs = await collection.find({}).sort({ _id: -1 }).toArray()
         // gigs = gigs.map(gig => {
         //     gig.inStock = true
         //     gig.createdAt = ObjectId(gig._id).getTimestamp()
@@ -133,17 +134,26 @@ async function add(gig) {
 
 function _buildCriteria(filterBy) {
     const criteria = {}
-    if (filterBy.txt) {
-        const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
-        criteria.$or = [
+    if (filterBy.name) {
+        const nameCriteria = filterBy.name.toLowerCase()
+        criteria.$and = [
             {
-                name: txtCriteria
+                tags: nameCriteria
             },
         ]
     }
-    if (filterBy.type) {
-        // criteria.type = { $gte: filterBy.minBalance }
-    }
+    // if (filterBy.price) {
+    //     const minPriceCriteria = +filterBy.price.minPrice
+    //     const maxPriceCriteria = +filterBy.price.maxPrice
+    //     criteria.$and = [
+    //         {
+    //             minPrice: minPriceCriteria
+    //         },
+    //         {
+    //             maxPriceCriteria: maxPriceCriteria
+    //         },
+    //     ]
+    // }
     return criteria
 }
 

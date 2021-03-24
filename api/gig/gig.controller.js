@@ -22,7 +22,7 @@ async function getGigByUser(req, res) {
 
 async function getGigs(req, res) {
     try {
-        const filterBy = req.body
+        const filterBy = req.query
         const gigs = await gigService.query(filterBy)
         res.send(gigs)
     } catch (err) {
