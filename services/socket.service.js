@@ -34,11 +34,13 @@ function connectSockets(http, session) {
             // logger.debug('Session ID is', socket.handshake.sessionID)
             socket.myTopic = topic
         })
-        socket.on('chat newMsg', msg => {
+        socket.on('like', like => {
+            console.log('hi');
             // emits to all sockets:
             // gIo.emit('chat addMsg', msg)
             // emits only to sockets in the same room
-            gIo.to(socket.myTopic).emit('chat addMsg', msg)
+            gIo.emit('like-addLike', like)
+            // socket.broadcast.emit('broadcast', 'New participant connected.');
         })
 
     })
@@ -54,7 +56,7 @@ function emitToUser({ type, data, userId }) {
 }
 
 
-// Send to all sockets BUT not the current socket 
+// Send to all sockets BUT not the current socket
 function broadcast({ type, data }) {
     const store = asyncLocalStorage.getStore()
     const { sessionId } = store
@@ -70,6 +72,3 @@ module.exports = {
     emit,
     broadcast
 }
-
-
-
