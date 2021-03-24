@@ -1,8 +1,5 @@
-
-
 const asyncLocalStorage = require('./als.service');
 const logger = require('./logger.service');
-
 var gIo = null
 var gSocketBySessionIdMap = {}
 
@@ -35,7 +32,9 @@ function connectSockets(http, session) {
             socket.myTopic = topic
         })
         socket.on('like', like => {
-            console.log('hi');
+
+            const currUser = JSON.parse(like.currUser);
+            like.currUser = currUser;
             // emits to all sockets:
             // gIo.emit('chat addMsg', msg)
             // emits only to sockets in the same room
