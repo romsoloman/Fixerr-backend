@@ -90,9 +90,9 @@ async function add(order) {
     const orderToSave = {
         createdAt: order.createdAt,
         buyer: order.buyer,
-        totalPrice: order.totalPrice,
+        totalPrice: +order.totalPrice,
         seller: order.seller,
-        deliveryTime: 3,
+        deliveryTime: parseInt(Math.random() * 12) + 1,
         items: order.items,
         extras: [
             "Source File",

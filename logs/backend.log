@@ -569,3 +569,11 @@
 3/25/2021, 3:44:19 PM - DEBUG - auth.service - login with username: oded (sid: vqsCJwe1z35WFHUQC3b5gFmZtuhV-WtG)
 3/25/2021, 3:44:33 PM - DEBUG - auth.service - login with username: noam (sid: 3eJH8IKwd7EchYL3af02U6ffKOBbOA5N)
 3/25/2021, 4:06:04 PM - DEBUG - auth.service - login with username: rom (sid: f_No-d1X-gZvzmEBvD5gBZMwBLaPs1ZR)
+3/25/2021, 5:00:04 PM - INFO - Server is running on port: 3031 
+3/25/2021, 11:47:38 PM - INFO - Server is running on port: 3031 
+3/25/2021, 11:48:47 PM - DEBUG - auth.service - login with username: oded (sid: 759yTwmMbmvDWOj9BVGMwiyuuG9YNbNA)
+3/25/2021, 11:49:42 PM - INFO - Server is running on port: 3031 
+3/26/2021, 12:23:43 AM - DEBUG - auth.service - login with username: noam (sid: aFkDHb7eDiON-Hc9z1D6rn6e6LSt7bAw)
+3/26/2021, 12:36:42 AM - DEBUG - auth.service - login with username: oded (sid: goif_a8UYeg3aa6-zBR6c9T4u5i0EG22)
+3/26/2021, 1:05:59 AM - DEBUG - auth.service - login with username: noam (sid: nQkQ3qT4cuNIgzdUXt9gaf3sEwNVHAhO)
+3/26/2021, 1:06:22 AM - DEBUG - auth.service - login with username: oded (sid: BZUQRgnvWHszEE50SboIzPBMvc1knmFx)
