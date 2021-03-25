@@ -22,7 +22,7 @@ function connectSockets(http, session) {
                 gSocketBySessionIdMap[socket.handshake.sessionID] = null
             }
         })
-        socket.on('chat topic', topic => {
+        socket.on('like topic', topic => {
             if (socket.myTopic === topic) return;
             if (socket.myTopic) {
                 socket.leave(socket.myTopic)
@@ -40,6 +40,14 @@ function connectSockets(http, session) {
             // emits only to sockets in the same room
             gIo.emit('like-addLike', like)
             // socket.broadcast.emit('broadcast', 'New participant connected.');
+        })
+
+        socket.on('like', like => {
+            // console.log('msg backend', msg);
+            // emits to all sockets:
+            // gIo.emit('chat addMsg', msg)
+            // emits only to sockets in the same room
+            gIo.to(socket.myTopic).emit('like-addLike', like)
         })
 
     })

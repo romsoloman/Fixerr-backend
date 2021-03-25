@@ -549,3 +549,23 @@
 3/24/2021, 9:14:14 PM - INFO - Server is running on port: 3031 
 3/24/2021, 9:16:22 PM - INFO - Server is running on port: 3031 
 3/24/2021, 9:17:51 PM - DEBUG - auth.service - login with username: rom (sid: ZvGNDxxQfqow6k67oo0ktadnLREZdsjK)
+3/25/2021, 10:10:42 AM - DEBUG - auth.service - login with username: oded (sid: TcfWPHYv8pcXkJ8X3EUJ-scbK8n-p_BQ)
+3/25/2021, 10:11:04 AM - DEBUG - auth.service - login with username: noam (sid: TcfWPHYv8pcXkJ8X3EUJ-scbK8n-p_BQ)
+3/25/2021, 11:08:39 AM - DEBUG - auth.service - login with username: oded (sid: 8kRhHyUdpOttdVfjhIlkmhz6-AcnGtXX)
+3/25/2021, 2:57:31 PM - DEBUG - auth.service - login with username: oded (sid: 8kRhHyUdpOttdVfjhIlkmhz6-AcnGtXX)
+3/25/2021, 3:22:12 PM - DEBUG - auth.service - login with username: oded (sid: 8kRhHyUdpOttdVfjhIlkmhz6-AcnGtXX)
+3/25/2021, 3:22:22 PM - DEBUG - auth.service - login with username: naom (sid: 8kRhHyUdpOttdVfjhIlkmhz6-AcnGtXX)
+3/25/2021, 3:22:22 PM - ERROR - Failed to Login Invalid username or password (sid: 8kRhHyUdpOttdVfjhIlkmhz6-AcnGtXX)
+3/25/2021, 3:22:26 PM - DEBUG - auth.service - login with username: naom (sid: 8kRhHyUdpOttdVfjhIlkmhz6-AcnGtXX)
+3/25/2021, 3:22:26 PM - ERROR - Failed to Login Invalid username or password (sid: 8kRhHyUdpOttdVfjhIlkmhz6-AcnGtXX)
+3/25/2021, 3:23:04 PM - DEBUG - auth.service - login with username: oded (sid: 8kRhHyUdpOttdVfjhIlkmhz6-AcnGtXX)
+3/25/2021, 3:23:29 PM - DEBUG - auth.service - login with username: noam (sid: IacHNHBTwbzo4rAuQ187cJ6O2Kbf7wmW)
+3/25/2021, 3:36:40 PM - INFO - Server is running on port: 3031 
+3/25/2021, 3:37:05 PM - INFO - Server is running on port: 3031 
+3/25/2021, 3:37:10 PM - INFO - Server is running on port: 3031 
+3/25/2021, 3:37:43 PM - INFO - Server is running on port: 3031 
+3/25/2021, 3:43:57 PM - INFO - Server is running on port: 3031 
+3/25/2021, 3:43:59 PM - INFO - Server is running on port: 3031 
+3/25/2021, 3:44:19 PM - DEBUG - auth.service - login with username: oded (sid: vqsCJwe1z35WFHUQC3b5gFmZtuhV-WtG)
+3/25/2021, 3:44:33 PM - DEBUG - auth.service - login with username: noam (sid: 3eJH8IKwd7EchYL3af02U6ffKOBbOA5N)
+3/25/2021, 4:06:04 PM - DEBUG - auth.service - login with username: rom (sid: f_No-d1X-gZvzmEBvD5gBZMwBLaPs1ZR)
