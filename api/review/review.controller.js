@@ -24,6 +24,7 @@ async function deleteReview(req, res) {
 
 
 async function addReview(req, res) {
+    console.log('addReview');
     try {
         var review = req.body
         review.byUserId = req.session.user._id

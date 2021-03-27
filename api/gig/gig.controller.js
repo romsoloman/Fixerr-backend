@@ -22,8 +22,14 @@ async function getGigByUser(req, res) {
 
 async function getGigs(req, res) {
     try {
+        // console.log('req.cookie(\'loggedinUser\')', req.cookie('loggedinUser'));
+        console.log('req.session', req.session);
+        // console.log('req.cookies', req.cookies);
+        // console.log('req.session', req.session);
+        // console.log('req.body', req.body);
+        // console.log('req.query', req.query);
         const filterBy = req.query
-        const gigs = await gigService.query(filterBy)
+        const gigs = await gigService.query(filterBy, req.session.user._id);
         res.send(gigs)
     } catch (err) {
         logger.error('Failed to get gigs', err)
@@ -53,6 +59,7 @@ async function addGig(req, res) {
 }
 
 async function updateGig(req, res) {
+    console.log('updateGig');
     try {
         const gig = req.body
         const savedGig = await gigService.update(gig)

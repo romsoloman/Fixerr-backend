@@ -21,39 +21,15 @@ async function query(filterBy = {}, currentUserId) {
         const collection = await dbService.getCollection('gig')
         const likesCollection = await dbService.getCollection('like');
         const gigs = await collection.find(criteria).sort({ _id: -1 }).toArray();
-        console.log('currentUserId', ObjectId(currentUserId));
         const newGigsArray = [];
-
-        // gigs.forEach(async (element, index) => {
         for (const currGig of gigs) {
-            console.log('currGig._id', ObjectId(currGig._id));
-            // const likeForThisGigByCurrentUser = await likesCollection.find({}).toArray();
-            // const likeForThisGigByCurrentUser = await likesCollection.findOne({ 'likedGigId': ObjectId(currGig._id), 'userThatLikedId': ObjectId(currentUserId) });
-            // const likeForThisGigByCurrentUser = await likesCollection.find({ likedGigId: '605b2541823dcb6209216127', userThatLikedId: '6059c99124c4d138693b3105' }).toArray();
-            const likeForThisGigByCurrentUser2 = await likesCollection.find({ likedGigId: currGig._id.toString(), userThatLikedId: currentUserId.toString() }).toArray();
-            // console.log('likeForThisGigByCurrentUser', likeForThisGigByCurrentUser);
+            const likeForThisGigByCurrentUser2 = await likesCollection.find({ likedGigId: currGig._id.toString(), userThatLikedId: currentUserId.toString() }).toArray()
             if (likeForThisGigByCurrentUser2 && likeForThisGigByCurrentUser2.length > 0) {
-                // console.log('index', index);
-                console.log('likeForThisGigByCurrentUser2', likeForThisGigByCurrentUser2);
-                console.log('likeForThisGigByCurrentUser2.length', likeForThisGigByCurrentUser2.length);
-                // gigs[index].currUserLikedThisGig = likeForThisGigByCurrentUser2.length === 1;
                 newGigsArray.push({ ...currGig, currUserLikedThisGig: likeForThisGigByCurrentUser2.length > 0 });
-                // currGig.currUserLikedThisGig = likeForThisGigByCurrentUser2.length === 1;
             } else {
                 newGigsArray.push(currGig);
             }
-            // gigs[index].currUserLikedThisGig = likeForThisGigByCurrentUser2.length === 1;
-            // gigs[index].currUserLikedThisGig2 = 'elior!!';
         };
-        // });
-        // var gigs = await collection.find({}).sort({ _id: -1 }).toArray()
-        // gigs = gigs.map(gig => {
-        //     gig.inStock = true
-        //     gig.createdAt = ObjectId(gig._id).getTimestamp()
-        //     // Returning fake fresh data
-        //     // gig.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
-        //     return gig
-        // })
         return newGigsArray;
     } catch (err) {
         console.log('err', err);
