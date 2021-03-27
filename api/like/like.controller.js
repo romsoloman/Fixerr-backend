@@ -14,7 +14,7 @@ async function getLikes(req, res) {
 
 async function deleteLike(req, res) {
     try {
-        console.log('req.params.id', req.params.id);
+        console.log('req.params.ids', req.params.id);
         await likeService.remove(req.params.id)
         res.send({ msg: 'Deleted successfully' })
     } catch (err) {

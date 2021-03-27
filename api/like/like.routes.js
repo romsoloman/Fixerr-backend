@@ -9,6 +9,6 @@ const router = express.Router()
 
 router.get('/', log, getLikes)
 router.post('/', addLike)
-router.delete('/:id', requireAuth, deleteLike)
+router.delete('/:id', deleteLike)
 
 module.exports = router

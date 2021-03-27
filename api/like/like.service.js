@@ -15,12 +15,12 @@ async function query() {
 
 async function remove(likeId) {
     try {
-        const store = asyncLocalStorage.getStore()
-        const { userId, isAdmin } = store
+        // const store = asyncLocalStorage.getStore()
+        // const { userId, isAdmin } = store
         const collection = await dbService.getCollection('like')
         // remove only if user is owner/admin
         const query = { _id: ObjectId(likeId) }
-        if (!isAdmin) query.byUserId = ObjectId(userId)
+        // if (!isAdmin) query.byUserId = ObjectId(userId)
         await collection.deleteOne(query)
         // return await collection.deleteOne({ _id: ObjectId(likeId), byUserId: ObjectId(userId) })
     } catch (err) {

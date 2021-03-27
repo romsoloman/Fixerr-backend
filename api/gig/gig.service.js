@@ -19,8 +19,11 @@ async function query(filterBy = {}, currentUserId) {
     console.log('criteria - ODED!!!', criteria);
     try {
         const collection = await dbService.getCollection('gig')
-        const likesCollection = await dbService.getCollection('like');
         const gigs = await collection.find(criteria).sort({ _id: -1 }).toArray();
+        if (!currentUserId) {
+            return gigs;
+        }
+        const likesCollection = await dbService.getCollection('like');
         const newGigsArray = [];
         for (const currGig of gigs) {
             const likeForThisGigByCurrentUser2 = await likesCollection.find({ likedGigId: currGig._id.toString(), userThatLikedId: currentUserId.toString() }).toArray()
@@ -29,6 +32,7 @@ async function query(filterBy = {}, currentUserId) {
             } else {
                 newGigsArray.push(currGig);
             }
+
         };
         return newGigsArray;
     } catch (err) {
