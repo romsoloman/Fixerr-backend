@@ -23,7 +23,6 @@ async function getGigByUser(req, res) {
 async function getGigs(req, res) {
     try {
         const filterBy = req.query
-
         let gigs;
         if (req.session.user) {
             gigs = await gigService.query(filterBy, req.session.user._id);
