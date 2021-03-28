@@ -1245,3 +1245,17 @@
 3/27/2021, 5:08:42 PM - INFO - Req from: Oded Ron (sid: ZiwbGuqj3nRMV3RcbKvVJIIZyMlnwL2x)
 3/27/2021, 5:08:55 PM - INFO - Req from: Oded Ron (sid: ZiwbGuqj3nRMV3RcbKvVJIIZyMlnwL2x)
 3/27/2021, 5:09:03 PM - INFO - Req from: Oded Ron (sid: ZiwbGuqj3nRMV3RcbKvVJIIZyMlnwL2x)
+3/27/2021, 5:19:11 PM - INFO - Server is running on port: 3031 
+3/27/2021, 5:19:28 PM - ERROR - Failed to add like | {} (sid: OBpcWiSOWpJj4ZQ0lBf6H6L0A_X1U4Bm)
+3/27/2021, 5:19:53 PM - DEBUG - auth.service - login with username: oded (sid: OBpcWiSOWpJj4ZQ0lBf6H6L0A_X1U4Bm)
+3/27/2021, 5:19:55 PM - INFO - Req from: Oded Ron (sid: OBpcWiSOWpJj4ZQ0lBf6H6L0A_X1U4Bm)
+3/27/2021, 5:20:09 PM - INFO - Req from: Oded Ron (sid: OBpcWiSOWpJj4ZQ0lBf6H6L0A_X1U4Bm)
+3/27/2021, 5:20:43 PM - DEBUG - auth.service - login with username: oded (sid: OoY9t2AWGcdezaDQ97dFwAg6tx-brh60)
+3/27/2021, 5:20:45 PM - INFO - Req from: Oded Ron (sid: OoY9t2AWGcdezaDQ97dFwAg6tx-brh60)
+3/27/2021, 6:29:29 PM - INFO - Server is running on port: 3031 
+3/27/2021, 6:50:03 PM - INFO - Server is running on port: 3031 
+3/28/2021, 6:53:38 PM - INFO - Server is running on port: 3031 
+3/28/2021, 6:54:49 PM - INFO - Server is running on port: 3031 
+3/28/2021, 6:55:00 PM - INFO - Server is running on port: 3031 
+3/28/2021, 6:55:05 PM - INFO - Server is running on port: 3031 
+3/28/2021, 6:55:23 PM - INFO - Server is running on port: 3031 

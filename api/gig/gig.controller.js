@@ -26,7 +26,6 @@ async function getGigs(req, res) {
 
         let gigs;
         if (req.session.user) {
-            const userId = req.session.user._id;
             gigs = await gigService.query(filterBy, req.session.user._id);
         } else {
             gigs = await gigService.query(filterBy);
