@@ -29,11 +29,10 @@ async function query(filterBy = {}, currentUserId) {
             const likeCriteria = { likedGigId: currGig._id.toString(), userThatLikedId: currentUserId.toString() }
             const likedGigs = await likesCollection.find(likeCriteria).toArray()
             if (likedGigs && likedGigs.length > 0) {
-                newGigsArray.push({ ...currGig, currUserLikedThisGig: true });
+                newGigsArray.push({ ...currGig, isLike: true });
             } else {
                 newGigsArray.push(currGig);
             }
-
         };
         return newGigsArray;
     } catch (err) {
