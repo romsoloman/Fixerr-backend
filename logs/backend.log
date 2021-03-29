@@ -1399,4 +1399,26 @@
 3/29/2021, 3:56:17 PM - INFO - Server is running on port: 3031 
 3/29/2021, 3:57:44 PM - INFO - Server is running on port: 3031 
 3/29/2021, 3:58:59 PM - INFO - Server is running on port: 3031 
+<<<<<<< HEAD
 >>>>>>> 3d4cdfe9c3dcdc927c613318a650fb91266010f2
+=======
+3/29/2021, 4:05:51 PM - DEBUG - auth.service - login with username: yoav1232 (sid: BI8pqg3ykirwf-m4yrYpFPBOZhqeltOI)
+3/29/2021, 4:05:54 PM - INFO - Req from: yoav alon (sid: BI8pqg3ykirwf-m4yrYpFPBOZhqeltOI)
+3/29/2021, 4:06:43 PM - DEBUG - auth.service - login with username: moshe (sid: hSwUt3rTZsaSrwj75MbRH4B1-AFb99Ot)
+3/29/2021, 4:06:46 PM - INFO - Req from: Moshe Levy (sid: hSwUt3rTZsaSrwj75MbRH4B1-AFb99Ot)
+3/29/2021, 4:08:08 PM - DEBUG - auth.service - signup with username: noa, fullname: noa moseri (sid: hrZ3iXGXKv1wTQdW0IkIg39rxI_8cc2-)
+3/29/2021, 4:08:09 PM - DEBUG - auth.route - new account created: {"username":"noa","password":"$2b$10$5.xQcOe51JWOmnYaAJcOquao4S03AQcIBhnpcDkCq1L18Lga3ET/6","fullname":"noa moseri","location":"Israel","memberSince":1617023289057,"avgResponseTime":"6 Hours","lastDelivery":"About 4 Hours","level":1,"imgUrl":"https://randomuser.me/api/portraits/men/46.jpg","_id":"6061d1390f001608c81c07a7"} (sid: hrZ3iXGXKv1wTQdW0IkIg39rxI_8cc2-)
+3/29/2021, 4:08:09 PM - DEBUG - auth.service - login with username: noa (sid: hrZ3iXGXKv1wTQdW0IkIg39rxI_8cc2-)
+3/29/2021, 4:08:11 PM - INFO - Req from: noa moseri (sid: hrZ3iXGXKv1wTQdW0IkIg39rxI_8cc2-)
+3/29/2021, 4:09:48 PM - INFO - Req from: noa moseri (sid: hrZ3iXGXKv1wTQdW0IkIg39rxI_8cc2-)
+3/29/2021, 4:11:07 PM - INFO - Req from: noa moseri (sid: hrZ3iXGXKv1wTQdW0IkIg39rxI_8cc2-)
+3/29/2021, 4:11:48 PM - INFO - Server is running on port: 3031 
+3/29/2021, 4:12:23 PM - INFO - Server is running on port: 3031 
+3/29/2021, 4:12:30 PM - ERROR - Failed to get gigs | {} (sid: gur0s9fVtefDo1AjEJVvkTFfFHgd9yux)
+3/29/2021, 4:13:54 PM - INFO - Server is running on port: 3031 
+3/29/2021, 4:16:20 PM - INFO - Server is running on port: 3031 
+3/29/2021, 4:16:59 PM - INFO - Server is running on port: 3031 
+3/29/2021, 4:17:08 PM - INFO - Server is running on port: 3031 
+3/29/2021, 4:17:40 PM - INFO - Server is running on port: 3031 
+>>>>>>> 2d4a0ea970e2f9483953669358e74fd6c7e518c2
+3/29/2021, 4:22:07 PM - INFO - Server is running on port: 3031 
