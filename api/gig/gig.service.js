@@ -19,15 +19,17 @@ async function query(filterBy = {}, currentUserId) {
     try {
         const collection = await dbService.getCollection('gig')
         const gigs = await collection.find(criteria).sort({ _id: -1 }).toArray();
+        console.log('gigs.length', gigs.length);
         if (!currentUserId) {
             return gigs;
         }
         const likesCollection = await dbService.getCollection('like');
         const newGigsArray = [];
         for (const currGig of gigs) {
-            const likeForThisGigByCurrentUser2 = await likesCollection.find({ likedGigId: currGig._id.toString(), userThatLikedId: currentUserId.toString() }).toArray()
-            if (likeForThisGigByCurrentUser2 && likeForThisGigByCurrentUser2.length > 0) {
-                newGigsArray.push({ ...currGig, currUserLikedThisGig: likeForThisGigByCurrentUser2.length > 0 });
+            const likeCriteria = { likedGigId: currGig._id.toString(), userThatLikedId: currentUserId.toString() }
+            const likedGigs = await likesCollection.find(likeCriteria).toArray()
+            if (likedGigs && likedGigs.length > 0) {
+                newGigsArray.push({ ...currGig, currUserLikedThisGig: true });
             } else {
                 newGigsArray.push(currGig);
             }
@@ -164,6 +166,7 @@ function _buildCriteria(filterBy) {
         // criteria["creator.level"] = { $eq: levelCriteria }
 
     }
+    console.log('nameCriteria', nameCriteria);
     criteria.$or = [
         {
             tags: nameCriteria
