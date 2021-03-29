@@ -1279,3 +1279,60 @@
 3/28/2021, 9:44:23 PM - INFO - Server is running on port: 3031 
 3/28/2021, 9:44:28 PM - INFO - Server is running on port: 3031 
 3/28/2021, 9:44:38 PM - INFO - Server is running on port: 3031 
+3/29/2021, 2:24:45 PM - INFO - Server is running on port: 3031 
+3/29/2021, 2:26:42 PM - DEBUG - auth.service - login with username: rom (sid: KpRw4NGYxSC9tplL_bt6TB5sz_1hmgyT)
+3/29/2021, 2:26:51 PM - INFO - Req from: Rom Soloman (sid: KpRw4NGYxSC9tplL_bt6TB5sz_1hmgyT)
+3/29/2021, 2:27:24 PM - INFO - Req from: Rom Soloman (sid: KpRw4NGYxSC9tplL_bt6TB5sz_1hmgyT)
+3/29/2021, 2:31:49 PM - DEBUG - auth.service - login with username: noam (sid: KpRw4NGYxSC9tplL_bt6TB5sz_1hmgyT)
+3/29/2021, 2:32:05 PM - DEBUG - auth.service - login with username: oded (sid: KpRw4NGYxSC9tplL_bt6TB5sz_1hmgyT)
+3/29/2021, 2:36:28 PM - DEBUG - auth.service - login with username: rom (sid: KpRw4NGYxSC9tplL_bt6TB5sz_1hmgyT)
+3/29/2021, 2:36:31 PM - INFO - Req from: Rom Soloman (sid: KpRw4NGYxSC9tplL_bt6TB5sz_1hmgyT)
+3/29/2021, 2:45:23 PM - INFO - Req from: Rom Soloman (sid: KpRw4NGYxSC9tplL_bt6TB5sz_1hmgyT)
+3/29/2021, 2:45:53 PM - INFO - Req from: Rom Soloman (sid: KpRw4NGYxSC9tplL_bt6TB5sz_1hmgyT)
+3/29/2021, 2:46:12 PM - INFO - Req from: Rom Soloman (sid: KpRw4NGYxSC9tplL_bt6TB5sz_1hmgyT)
+3/29/2021, 3:17:54 PM - DEBUG - auth.service - login with username: noam (sid: KpRw4NGYxSC9tplL_bt6TB5sz_1hmgyT)
+3/29/2021, 3:18:38 PM - INFO - Req from: Noam Cohen (sid: KpRw4NGYxSC9tplL_bt6TB5sz_1hmgyT)
+3/29/2021, 3:20:17 PM - DEBUG - auth.service - login with username: avram (sid: Jtv90CFyAWvdJlY5MBBdtVq9unCXHo2W)
+3/29/2021, 3:20:17 PM - ERROR - Failed to Login Invalid username or password (sid: Jtv90CFyAWvdJlY5MBBdtVq9unCXHo2W)
+3/29/2021, 3:20:49 PM - DEBUG - auth.service - login with username: moshe (sid: Jtv90CFyAWvdJlY5MBBdtVq9unCXHo2W)
+3/29/2021, 3:20:53 PM - INFO - Req from: Moshe Levy (sid: Jtv90CFyAWvdJlY5MBBdtVq9unCXHo2W)
+3/29/2021, 3:23:02 PM - DEBUG - auth.service - signup with username: yoav1232, fullname: yoav alon (sid: qvoY8nor2AeqYGTsZKvkm3-zp32Gy_Ii)
+3/29/2021, 3:23:03 PM - DEBUG - auth.route - new account created: {"username":"yoav1232","password":"$2b$10$CFif4otxWA7XF6TkrF2rj.KahGtabZHOWxebWngmf5H2a.0qN9GOe","fullname":"yoav alon","location":"Israel","memberSince":1617020583011,"avgResponseTime":"5 Hours","lastDelivery":"About 7 Hours","level":1,"imgUrl":"https://randomuser.me/api/portraits/men/97.jpg","_id":"6061c6a75f838104cb0167ba"} (sid: qvoY8nor2AeqYGTsZKvkm3-zp32Gy_Ii)
+3/29/2021, 3:23:03 PM - DEBUG - auth.service - login with username: yoav1232 (sid: qvoY8nor2AeqYGTsZKvkm3-zp32Gy_Ii)
+3/29/2021, 3:23:06 PM - INFO - Req from: yoav alon (sid: qvoY8nor2AeqYGTsZKvkm3-zp32Gy_Ii)
+3/29/2021, 3:26:19 PM - INFO - Req from: yoav alon (sid: qvoY8nor2AeqYGTsZKvkm3-zp32Gy_Ii)
+3/29/2021, 3:26:52 PM - DEBUG - auth.service - login with username: rom (sid: QB50PqtyiBO_qhjkwjIHsQThh9luU7w3)
+3/29/2021, 3:29:08 PM - INFO - Req from: Rom Soloman (sid: QB50PqtyiBO_qhjkwjIHsQThh9luU7w3)
+3/29/2021, 3:29:24 PM - INFO - Req from: Rom Soloman (sid: QB50PqtyiBO_qhjkwjIHsQThh9luU7w3)
+3/29/2021, 3:35:29 PM - INFO - Req from: Rom Soloman (sid: QB50PqtyiBO_qhjkwjIHsQThh9luU7w3)
+3/29/2021, 3:36:18 PM - DEBUG - auth.service - login with username: noam (sid: QB50PqtyiBO_qhjkwjIHsQThh9luU7w3)
+3/29/2021, 3:36:22 PM - INFO - Req from: Noam Cohen (sid: QB50PqtyiBO_qhjkwjIHsQThh9luU7w3)
+3/29/2021, 3:36:31 PM - INFO - Req from: Noam Cohen (sid: QB50PqtyiBO_qhjkwjIHsQThh9luU7w3)
+3/29/2021, 3:37:12 PM - INFO - Req from: Noam Cohen (sid: QB50PqtyiBO_qhjkwjIHsQThh9luU7w3)
+3/29/2021, 3:37:14 PM - INFO - Req from: Noam Cohen (sid: QB50PqtyiBO_qhjkwjIHsQThh9luU7w3)
+3/29/2021, 3:37:40 PM - INFO - Req from: Noam Cohen (sid: QB50PqtyiBO_qhjkwjIHsQThh9luU7w3)
+3/29/2021, 3:37:43 PM - INFO - Req from: Noam Cohen (sid: QB50PqtyiBO_qhjkwjIHsQThh9luU7w3)
+3/29/2021, 3:39:29 PM - INFO - Req from: Noam Cohen (sid: QB50PqtyiBO_qhjkwjIHsQThh9luU7w3)
+3/29/2021, 3:40:45 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:41:45 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:41:56 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:43:44 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:44:17 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:44:56 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:45:18 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:46:16 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:47:07 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:47:48 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:48:53 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:50:22 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:50:30 PM - ERROR - Failed to get gigs | {} (sid: 0AaOLbjjs33f-1FLWdXP-d5dY2bNgPWH)
+3/29/2021, 3:50:49 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:51:46 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:52:06 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:52:43 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:52:51 PM - ERROR - Failed to get gigs | {} (sid: V5NlkRLjtMiwxC4yz0DfWYsXlZygkzon)
+3/29/2021, 3:53:21 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:53:24 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:56:17 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:57:44 PM - INFO - Server is running on port: 3031 
+3/29/2021, 3:58:59 PM - INFO - Server is running on port: 3031 

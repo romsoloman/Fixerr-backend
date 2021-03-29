@@ -142,6 +142,7 @@ function _buildCriteria(filterBy) {
     const criteria = {}
     if (filterBy.name) {
         var nameCriteria = filterBy.name.toLowerCase()
+        criteria.$or = [{ tags: nameCriteria }]
     }
     if (filterBy.price) {
         const price = JSON.parse(filterBy.price)
@@ -157,24 +158,23 @@ function _buildCriteria(filterBy) {
     }
     if (filterBy.rating) {
         var ratingCriteria = +filterBy.rating
-        // criteria.rating = { $eq: ratingCriteria }
+        criteria.rating = { $eq: ratingCriteria }
     }
     if (filterBy.level) {
         var levelCriteria = +filterBy.level
-        // criteria["creator.level"] = { $eq: levelCriteria }
-
+        criteria["creator.level"] = { $eq: levelCriteria }
     }
-    criteria.$or = [
-        {
-            tags: nameCriteria
-        },
-        {
-            rating: ratingCriteria
-        },
-        {
-            level: levelCriteria
-        }
-    ]
+    // criteria.$or = [
+    //     {
+    //         tags: nameCriteria
+    //     },
+    //     {
+    //         rating: ratingCriteria
+    //     },
+    //     {
+    //         level: levelCriteria
+    //     }
+    // ]
     console.log('criteria', criteria);
     return criteria
 }
