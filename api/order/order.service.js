@@ -86,6 +86,7 @@ async function add(order) {
         seller: order.seller,
         deliveryTime: parseInt(Math.random() * 12) + 1,
         items: order.items,
+        tags: order.tags,
         extras: [
             "Source File",
             "Logo Transparency",

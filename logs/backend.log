@@ -1440,3 +1440,69 @@
 3/30/2021, 10:47:18 AM - INFO - Server is running on port: 3031 
 3/30/2021, 10:48:57 AM - INFO - Server is running on port: 3031 
 3/30/2021, 10:49:11 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:22:47 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:22:59 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:22:59 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:23:00 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:23:40 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:23:41 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:23:49 AM - ERROR - Failed to update order | {} (sid: B7mkcYC75ZJfcIHWTJWIHxbILdj8V4MW)
+3/30/2021, 11:24:04 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:25:10 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:25:11 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:35:01 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:36:50 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:37:58 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:39:15 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:39:16 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:39:30 AM - ERROR - Failed to update order | {} (sid: tFtApleXVdCXKIBJ9kWMnYVB9wuqx7VU)
+3/30/2021, 11:42:34 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:42:37 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:43:04 AM - ERROR - Failed to update order | {} (sid: DbXnOY-rGvgpQ_sbPDqfkya1weeS_Xt7)
+3/30/2021, 11:45:09 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:45:21 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:45:22 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:46:14 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:46:16 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:46:38 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:46:39 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:47:14 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:47:17 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:48:05 AM - INFO - Server is running on port: 3031 
+3/30/2021, 1:05:38 PM - DEBUG - auth.service - login with username: noam (sid: 7hyBbGGBOHFck71XO3uhTGj58om6tJDg)
+3/30/2021, 1:05:41 PM - INFO - Req from: Noam Cohen (sid: 7hyBbGGBOHFck71XO3uhTGj58om6tJDg)
+3/30/2021, 1:06:24 PM - INFO - Req from: Noam Cohen (sid: 7hyBbGGBOHFck71XO3uhTGj58om6tJDg)
+3/30/2021, 1:06:38 PM - INFO - Req from: Noam Cohen (sid: 7hyBbGGBOHFck71XO3uhTGj58om6tJDg)
+3/30/2021, 1:09:48 PM - DEBUG - auth.service - login with username: yuval (sid: JhQbUXnPkL--CLOXC2EP_LvCCZiwmT0q)
+3/30/2021, 1:09:51 PM - INFO - Req from: yuval moseri (sid: JhQbUXnPkL--CLOXC2EP_LvCCZiwmT0q)
+3/30/2021, 1:10:26 PM - DEBUG - auth.service - login with username: moshe (sid: SDqV4d010a60nvwaiDdomrop9slLMHRd)
+3/30/2021, 1:10:28 PM - INFO - Req from: Moshe Levy (sid: SDqV4d010a60nvwaiDdomrop9slLMHRd)
+3/30/2021, 1:11:05 PM - DEBUG - auth.service - login with username: michael (sid: AzK4r4pwUUAVMb3duI4_6Hl2-bBawBYU)
+3/30/2021, 1:11:07 PM - INFO - Req from: michael (sid: AzK4r4pwUUAVMb3duI4_6Hl2-bBawBYU)
+3/30/2021, 1:13:56 PM - DEBUG - auth.service - login with username: oded (sid: 24jlwJNZP-jybdCAQHz5nElVf7XGRx1G)
+3/30/2021, 1:13:58 PM - INFO - Req from: Oded Ron (sid: 24jlwJNZP-jybdCAQHz5nElVf7XGRx1G)
+3/30/2021, 1:26:47 PM - DEBUG - auth.service - login with username: yuval (sid: nL82c87_SRg7szBJA-PDoFjm58ve2kAZ)
+3/30/2021, 1:26:51 PM - INFO - Req from: yuval moseri (sid: nL82c87_SRg7szBJA-PDoFjm58ve2kAZ)
+3/30/2021, 1:27:20 PM - DEBUG - auth.service - login with username: noam (sid: R5P4jTPflSoBxNg_mWt1D-G2gIjiwPIO)
+3/30/2021, 1:27:23 PM - INFO - Req from: Noam Cohen (sid: R5P4jTPflSoBxNg_mWt1D-G2gIjiwPIO)
+3/30/2021, 1:28:24 PM - DEBUG - auth.service - login with username: michael (sid: heqkF_VYCn-NbcJtopfS-dTJpPX94v5J)
+3/30/2021, 1:28:26 PM - INFO - Req from: michael (sid: heqkF_VYCn-NbcJtopfS-dTJpPX94v5J)
+3/30/2021, 1:29:09 PM - DEBUG - auth.service - login with username: yuval (sid: cHaZqHCexUvTqDp9b84SNIbHLAHxCtIA)
+3/30/2021, 1:29:11 PM - INFO - Req from: yuval moseri (sid: cHaZqHCexUvTqDp9b84SNIbHLAHxCtIA)
+3/30/2021, 1:29:32 PM - INFO - Req from: yuval moseri (sid: cHaZqHCexUvTqDp9b84SNIbHLAHxCtIA)
+3/30/2021, 1:29:39 PM - INFO - Req from: yuval moseri (sid: cHaZqHCexUvTqDp9b84SNIbHLAHxCtIA)
+3/30/2021, 1:30:21 PM - INFO - Req from: yuval moseri (sid: cHaZqHCexUvTqDp9b84SNIbHLAHxCtIA)
+3/30/2021, 1:30:52 PM - DEBUG - auth.service - login with username: oded (sid: YucMYtv1D_7DVn4-y7bmejfnYNLAgYs8)
+3/30/2021, 1:31:37 PM - INFO - Server is running on port: 3031 
+3/30/2021, 1:31:49 PM - INFO - Server is running on port: 3031 
+3/30/2021, 1:32:15 PM - DEBUG - auth.service - login with username: oded (sid: YuP0xQ7t752Jh8Us_WUTscK1yxava1Ya)
+3/30/2021, 1:32:17 PM - INFO - Req from: Oded Ron (sid: YuP0xQ7t752Jh8Us_WUTscK1yxava1Ya)
+3/30/2021, 1:32:55 PM - DEBUG - auth.service - login with username: noam (sid: AfTKc90TVNrcgbprgp53st9KHA1M8BR2)
+3/30/2021, 1:33:03 PM - INFO - Req from: Noam Cohen (sid: AfTKc90TVNrcgbprgp53st9KHA1M8BR2)
+3/30/2021, 1:33:15 PM - INFO - Req from: Noam Cohen (sid: AfTKc90TVNrcgbprgp53st9KHA1M8BR2)
+3/30/2021, 1:33:55 PM - DEBUG - auth.service - login with username: michael (sid: u49FSZOkXg8VnK1MpE2TMXXUs6lx4kfR)
+3/30/2021, 1:33:57 PM - INFO - Req from: michael (sid: u49FSZOkXg8VnK1MpE2TMXXUs6lx4kfR)
+3/30/2021, 1:34:33 PM - DEBUG - auth.service - login with username: yuval (sid: uYHj3y4sXMSwSBVHIKmgjUg8Vg9Jx10F)
+3/30/2021, 1:34:35 PM - INFO - Req from: yuval moseri (sid: uYHj3y4sXMSwSBVHIKmgjUg8Vg9Jx10F)
+3/30/2021, 1:35:25 PM - INFO - Req from: yuval moseri (sid: uYHj3y4sXMSwSBVHIKmgjUg8Vg9Jx10F)
+3/30/2021, 1:36:15 PM - INFO - Req from: yuval moseri (sid: uYHj3y4sXMSwSBVHIKmgjUg8Vg9Jx10F)
