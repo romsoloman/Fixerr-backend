@@ -1440,3 +1440,201 @@
 3/30/2021, 10:47:18 AM - INFO - Server is running on port: 3031 
 3/30/2021, 10:48:57 AM - INFO - Server is running on port: 3031 
 3/30/2021, 10:49:11 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:55:33 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:55:42 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:55:45 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:56:18 AM - DEBUG - auth.service - login with username: rom (sid: kkig117n2VO6o92U11GfV4xPHy7veqZd)
+3/30/2021, 11:56:19 AM - DEBUG - auth.service - login with username: oded (sid: kkig117n2VO6o92U11GfV4xPHy7veqZd)
+3/30/2021, 11:56:23 AM - INFO - Req from: Oded Ron (sid: kkig117n2VO6o92U11GfV4xPHy7veqZd)
+3/30/2021, 11:56:24 AM - INFO - Req from: Oded Ron (sid: kkig117n2VO6o92U11GfV4xPHy7veqZd)
+3/30/2021, 11:56:36 AM - ERROR - Failed to delete like | {} (sid: kkig117n2VO6o92U11GfV4xPHy7veqZd)
+3/30/2021, 11:57:11 AM - INFO - Server is running on port: 3031 
+3/30/2021, 11:57:54 AM - DEBUG - auth.service - login with username: oded (sid: FXFPMZQKvQ32yKa-Ylg3Qgs0Fs6VV380)
+3/30/2021, 11:58:00 AM - DEBUG - auth.service - login with username: rom (sid: FXFPMZQKvQ32yKa-Ylg3Qgs0Fs6VV380)
+3/30/2021, 11:58:02 AM - INFO - Req from: Rom Soloman (sid: FXFPMZQKvQ32yKa-Ylg3Qgs0Fs6VV380)
+3/30/2021, 11:58:07 AM - INFO - Req from: Rom Soloman (sid: FXFPMZQKvQ32yKa-Ylg3Qgs0Fs6VV380)
+3/30/2021, 11:59:08 AM - INFO - Req from: Rom Soloman (sid: FXFPMZQKvQ32yKa-Ylg3Qgs0Fs6VV380)
+3/30/2021, 11:59:11 AM - INFO - Req from: Rom Soloman (sid: FXFPMZQKvQ32yKa-Ylg3Qgs0Fs6VV380)
+3/30/2021, 11:59:32 AM - INFO - Req from: Rom Soloman (sid: FXFPMZQKvQ32yKa-Ylg3Qgs0Fs6VV380)
+3/30/2021, 11:59:59 AM - DEBUG - auth.service - login with username: oded (sid: 2os7AdciALwxYJoxLZw9l7p6PsceVI-a)
+3/30/2021, 12:00:06 PM - DEBUG - auth.service - login with username: rom (sid: 2os7AdciALwxYJoxLZw9l7p6PsceVI-a)
+3/30/2021, 12:00:08 PM - INFO - Req from: Rom Soloman (sid: 2os7AdciALwxYJoxLZw9l7p6PsceVI-a)
+3/30/2021, 12:00:10 PM - INFO - Req from: Rom Soloman (sid: 2os7AdciALwxYJoxLZw9l7p6PsceVI-a)
+3/30/2021, 12:00:20 PM - ERROR - Failed to delete like | {} (sid: 2os7AdciALwxYJoxLZw9l7p6PsceVI-a)
+3/30/2021, 12:00:27 PM - ERROR - Failed to delete like | {} (sid: 2os7AdciALwxYJoxLZw9l7p6PsceVI-a)
+3/30/2021, 12:01:38 PM - INFO - Server is running on port: 3031 
+3/30/2021, 12:02:20 PM - DEBUG - auth.service - login with username: rom (sid: odOMNKf1vSsL0w8d4G_MNR-icehjw158)
+3/30/2021, 12:02:30 PM - DEBUG - auth.service - login with username: oded (sid: SbedzbBi5d1A8-3xCFmnkIZa1o4oMAPL)
+3/30/2021, 12:02:36 PM - INFO - Req from: Oded Ron (sid: SbedzbBi5d1A8-3xCFmnkIZa1o4oMAPL)
+3/30/2021, 12:02:38 PM - INFO - Req from: Oded Ron (sid: SbedzbBi5d1A8-3xCFmnkIZa1o4oMAPL)
+3/30/2021, 12:03:54 PM - INFO - Req from: Oded Ron (sid: SbedzbBi5d1A8-3xCFmnkIZa1o4oMAPL)
+3/30/2021, 12:04:36 PM - DEBUG - auth.service - login with username: noam (sid: RWQkjYw9xXYyIXPBfSKQJyn5mCo8TpKi)
+3/30/2021, 12:04:38 PM - INFO - Req from: Noam Cohen (sid: RWQkjYw9xXYyIXPBfSKQJyn5mCo8TpKi)
+3/30/2021, 12:05:08 PM - INFO - Server is running on port: 3031 
+3/30/2021, 12:05:09 PM - INFO - Server is running on port: 3031 
+3/30/2021, 12:05:14 PM - INFO - Server is running on port: 3031 
+3/30/2021, 12:05:18 PM - INFO - Server is running on port: 3031 
+3/30/2021, 12:05:37 PM - DEBUG - auth.service - login with username: oded (sid: aKnZNG_jt8BN2zKuR1DKhH9jx5Q_8DlH)
+3/30/2021, 12:05:43 PM - DEBUG - auth.service - login with username: rom (sid: aKnZNG_jt8BN2zKuR1DKhH9jx5Q_8DlH)
+3/30/2021, 12:05:46 PM - INFO - Req from: Rom Soloman (sid: aKnZNG_jt8BN2zKuR1DKhH9jx5Q_8DlH)
+3/30/2021, 12:05:48 PM - INFO - Req from: Rom Soloman (sid: aKnZNG_jt8BN2zKuR1DKhH9jx5Q_8DlH)
+3/30/2021, 12:06:10 PM - INFO - Server is running on port: 3031 
+3/30/2021, 12:07:17 PM - ERROR - Failed to delete like | {} (sid: EGt9Spmvdg1utoVW_wGJ8ULJuWo0Dr16)
+3/30/2021, 12:08:01 PM - DEBUG - auth.service - login with username: oded (sid: EGt9Spmvdg1utoVW_wGJ8ULJuWo0Dr16)
+3/30/2021, 12:08:03 PM - INFO - Req from: Oded Ron (sid: EGt9Spmvdg1utoVW_wGJ8ULJuWo0Dr16)
+3/30/2021, 12:08:22 PM - INFO - Req from: Oded Ron (sid: EGt9Spmvdg1utoVW_wGJ8ULJuWo0Dr16)
+3/30/2021, 12:08:29 PM - DEBUG - auth.service - login with username: rom (sid: EGt9Spmvdg1utoVW_wGJ8ULJuWo0Dr16)
+3/30/2021, 12:09:00 PM - INFO - Req from: Rom Soloman (sid: EGt9Spmvdg1utoVW_wGJ8ULJuWo0Dr16)
+3/30/2021, 12:14:18 PM - INFO - Server is running on port: 3031 
+3/30/2021, 12:15:08 PM - DEBUG - auth.service - login with username: oded (sid: RSLJQxncbwCj6srwibH2GhbV1oEBT8nd)
+3/30/2021, 12:15:20 PM - DEBUG - auth.service - login with username: rom (sid: RSLJQxncbwCj6srwibH2GhbV1oEBT8nd)
+3/30/2021, 12:15:24 PM - INFO - Req from: Rom Soloman (sid: RSLJQxncbwCj6srwibH2GhbV1oEBT8nd)
+3/30/2021, 12:15:26 PM - INFO - Req from: Rom Soloman (sid: RSLJQxncbwCj6srwibH2GhbV1oEBT8nd)
+3/30/2021, 12:16:50 PM - INFO - Server is running on port: 3031 
+3/30/2021, 12:22:28 PM - INFO - Server is running on port: 3031 
+3/30/2021, 12:23:15 PM - DEBUG - auth.service - login with username: moshe (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:23:21 PM - INFO - Req from: Moshe Levy (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:23:43 PM - DEBUG - auth.service - login with username: noam (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:24:12 PM - DEBUG - auth.service - login with username: yoav1232 (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:24:40 PM - DEBUG - auth.service - login with username: yuval (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:25:15 PM - DEBUG - auth.service - signup with username: michael, fullname: michael (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:25:15 PM - DEBUG - auth.route - new account created: {"username":"michael","password":"$2b$10$OyH7G.zEmcE3B6EYYwuwLOYHl17Ll1iX5Qr6XqgIj0FhbIf.vt1m.","fullname":"michael","location":"Israel","memberSince":1617096315504,"avgResponseTime":"2 Hours","lastDelivery":"About 2 Hours","level":1,"imgUrl":"https://randomuser.me/api/portraits/men/31.jpg","_id":"6062ee7bb827d3e5eebb366a"} (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:25:15 PM - DEBUG - auth.service - login with username: michael (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:25:34 PM - INFO - Req from: michael (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:25:40 PM - INFO - Req from: michael (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:28:37 PM - INFO - Req from: michael (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:29:09 PM - INFO - Req from: michael (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:33:12 PM - INFO - Req from: michael (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:33:26 PM - INFO - Req from: michael (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:35:29 PM - INFO - Req from: michael (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:38:18 PM - INFO - Req from: michael (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:58:07 PM - INFO - Req from: michael (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:58:16 PM - DEBUG - auth.service - login with username: yuval (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 12:59:59 PM - INFO - Req from: yuval moseri (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:00:19 PM - INFO - Req from: yuval moseri (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:00:27 PM - INFO - Req from: yuval moseri (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:00:36 PM - DEBUG - auth.service - login with username: oded (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:00:44 PM - DEBUG - auth.service - login with username: rom (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:03:15 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:03:28 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:06:14 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:07:34 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:07:43 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:10:02 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:11:56 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:12:10 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:12:48 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:15:27 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:17:57 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:20:23 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:21:03 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:24:21 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:24:43 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:27:05 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:31:01 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:31:21 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:35:14 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:35:35 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:39:54 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:40:23 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:40:36 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:43:46 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:47:24 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:51:10 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:52:23 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:53:43 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 1:57:20 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 2:00:28 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 2:03:14 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 2:05:14 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 2:06:11 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 2:09:45 PM - INFO - Req from: Rom Soloman (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 4:44:05 PM - DEBUG - auth.service - login with username: oded (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 6:04:06 PM - INFO - Req from: Oded Ron (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 6:04:30 PM - INFO - Req from: Oded Ron (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 6:04:40 PM - INFO - Req from: Oded Ron (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 6:04:52 PM - INFO - Req from: Oded Ron (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 6:05:23 PM - INFO - Req from: Oded Ron (sid: o5pabn-eXwVkP831k7LPK6w0kGDtlTJV)
+3/30/2021, 6:06:22 PM - DEBUG - auth.service - login with username: rom (sid: Rix8MbVbJDsS91OgPuWq3vBwO_peYoji)
+3/30/2021, 6:07:47 PM - INFO - Req from: Rom Soloman (sid: Rix8MbVbJDsS91OgPuWq3vBwO_peYoji)
+3/30/2021, 6:09:36 PM - INFO - Server is running on port: 3031 
+3/30/2021, 6:14:52 PM - INFO - Server is running on port: 3031 
+3/30/2021, 6:16:58 PM - INFO - Server is running on port: 3031 
+3/30/2021, 6:20:12 PM - INFO - Server is running on port: 3031 
+3/30/2021, 6:21:39 PM - INFO - Server is running on port: 3031 
+3/30/2021, 6:21:49 PM - INFO - Server is running on port: 3031 
+3/30/2021, 6:22:47 PM - INFO - Server is running on port: 3031 
+3/30/2021, 6:23:07 PM - INFO - Server is running on port: 3031 
+3/30/2021, 6:24:06 PM - INFO - Server is running on port: 3031 
+3/30/2021, 6:24:52 PM - INFO - Server is running on port: 3031 
+3/30/2021, 6:28:26 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:21:54 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:23:36 PM - ERROR - Cannot get notifications | {} (sid: 2gCbxPek52iQbmwiaXwn4lDhMHEV5szz)
+3/30/2021, 7:24:09 PM - ERROR - Cannot get notifications | {} (sid: 2gCbxPek52iQbmwiaXwn4lDhMHEV5szz)
+3/30/2021, 7:25:01 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:25:09 PM - ERROR - Cannot get notifications | {} (sid: 1gyyPDk8exhBaxcYAGpXv6_mDsX_PpC5)
+3/30/2021, 7:26:16 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:26:20 PM - ERROR - Cannot get notifications | {} (sid: i_vLwrMtlFEj8o2SZCLnwRoZCBwIuqjw)
+3/30/2021, 7:26:29 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:27:06 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:27:10 PM - ERROR - Cannot get notifications | {} (sid: UKbYqCEL4nrEwS-l5nqYIsI-O_yOAT1n)
+3/30/2021, 7:27:20 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:28:31 PM - DEBUG - auth.service - login with username: oded (sid: t6loMdGgWw8wGXh0u2wWu1y1U_AiiJv_)
+3/30/2021, 7:28:34 PM - INFO - Req from: Oded Ron (sid: t6loMdGgWw8wGXh0u2wWu1y1U_AiiJv_)
+3/30/2021, 7:29:30 PM - INFO - Req from: Oded Ron (sid: t6loMdGgWw8wGXh0u2wWu1y1U_AiiJv_)
+3/30/2021, 7:29:55 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:30:11 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:30:24 PM - DEBUG - auth.service - login with username: oded (sid: LZrVk2kkRvPYjle9mzbfLonWU8rNo6De)
+3/30/2021, 7:30:30 PM - INFO - Req from: Oded Ron (sid: LZrVk2kkRvPYjle9mzbfLonWU8rNo6De)
+3/30/2021, 7:31:00 PM - INFO - Req from: Oded Ron (sid: LZrVk2kkRvPYjle9mzbfLonWU8rNo6De)
+3/30/2021, 7:31:07 PM - ERROR - Cannot get notifications | {} (sid: rl-ETcMeeq2K9ylwhrQBpL7Eqzm0KOI3)
+3/30/2021, 7:31:23 PM - DEBUG - auth.service - login with username: rom (sid: 9zz24MtO7UjBTNE99mSnafDK7_hiwFtS)
+3/30/2021, 7:32:10 PM - INFO - Req from: Rom Soloman (sid: 9zz24MtO7UjBTNE99mSnafDK7_hiwFtS)
+3/30/2021, 7:32:52 PM - INFO - Req from: Oded Ron (sid: LZrVk2kkRvPYjle9mzbfLonWU8rNo6De)
+3/30/2021, 7:38:41 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:38:53 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:38:55 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:39:51 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:40:00 PM - DEBUG - auth.service - login with username: oded (sid: q2fo9do81jMJdgpUJnIGcvfDwF4fLEN0)
+3/30/2021, 7:40:01 PM - INFO - Req from: Oded Ron (sid: q2fo9do81jMJdgpUJnIGcvfDwF4fLEN0)
+3/30/2021, 7:40:02 PM - ERROR - Cannot get notifications | {} (sid: q2fo9do81jMJdgpUJnIGcvfDwF4fLEN0)
+3/30/2021, 7:40:52 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:41:02 PM - DEBUG - auth.service - login with username: oded (sid: 2yc0cjE7t1da1wUMfjquO2QRh5AtrygM)
+3/30/2021, 7:41:05 PM - INFO - Req from: Oded Ron (sid: 2yc0cjE7t1da1wUMfjquO2QRh5AtrygM)
+3/30/2021, 7:41:05 PM - ERROR - Cannot get notifications | {} (sid: 2yc0cjE7t1da1wUMfjquO2QRh5AtrygM)
+3/30/2021, 7:41:58 PM - INFO - Req from: Oded Ron (sid: 2yc0cjE7t1da1wUMfjquO2QRh5AtrygM)
+3/30/2021, 7:41:59 PM - ERROR - Cannot get notifications | {} (sid: 2yc0cjE7t1da1wUMfjquO2QRh5AtrygM)
+3/30/2021, 7:42:55 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:43:08 PM - DEBUG - auth.service - login with username: oded (sid: rDlSkC9TK0dxajKF86QE0VWel_7F4OhL)
+3/30/2021, 7:43:12 PM - INFO - Req from: Oded Ron (sid: rDlSkC9TK0dxajKF86QE0VWel_7F4OhL)
+3/30/2021, 7:43:13 PM - ERROR - Cannot get notifications | {} (sid: rDlSkC9TK0dxajKF86QE0VWel_7F4OhL)
+3/30/2021, 7:43:25 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:44:13 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:44:29 PM - DEBUG - auth.service - login with username: oded (sid: DYq9XYVgQJSsGlIgYEjQH0Z0kOu8Ydm1)
+3/30/2021, 7:44:32 PM - INFO - Req from: Oded Ron (sid: DYq9XYVgQJSsGlIgYEjQH0Z0kOu8Ydm1)
+3/30/2021, 7:44:32 PM - ERROR - Cannot get notifications | {} (sid: DYq9XYVgQJSsGlIgYEjQH0Z0kOu8Ydm1)
+3/30/2021, 7:45:11 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:45:15 PM - ERROR - Cannot get notifications | {} (sid: htu1AuMTM3UYhXsECkJkQHslvS-w55cR)
+3/30/2021, 7:45:42 PM - DEBUG - auth.service - login with username: oded (sid: 20ywUSYgatS-w6ixksCRus7PGXuVVZXn)
+3/30/2021, 7:45:44 PM - INFO - Req from: Oded Ron (sid: 20ywUSYgatS-w6ixksCRus7PGXuVVZXn)
+3/30/2021, 7:46:46 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:46:50 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:46:53 PM - ERROR - Cannot get notifications | {} (sid: ttsgu5AxPzs6Dy-7M8KdJ0RDZDJmiS-V)
+3/30/2021, 7:47:05 PM - DEBUG - auth.service - login with username: oded (sid: i4GiGEI8gkSGRGZC9ShW2LFEGIzCa_0T)
+3/30/2021, 7:47:08 PM - INFO - Req from: Oded Ron (sid: i4GiGEI8gkSGRGZC9ShW2LFEGIzCa_0T)
+3/30/2021, 7:47:35 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:47:40 PM - ERROR - Cannot get notifications | {} (sid: Y3vTMdWz2Zmn55AM65uZnaqgBSHz-Dwt)
+3/30/2021, 7:47:52 PM - DEBUG - auth.service - login with username: oded (sid: HpFgBv935SlLOCwApPDk6J6RLSrQGHzO)
+3/30/2021, 7:47:54 PM - INFO - Req from: Oded Ron (sid: HpFgBv935SlLOCwApPDk6J6RLSrQGHzO)
+3/30/2021, 7:47:54 PM - ERROR - Cannot get notifications | {} (sid: HpFgBv935SlLOCwApPDk6J6RLSrQGHzO)
+3/30/2021, 7:48:09 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:48:21 PM - DEBUG - auth.service - login with username: oded (sid: a4GU-7l-0G1jX5v8rgWasS9oxBzUrFic)
+3/30/2021, 7:48:23 PM - INFO - Req from: Oded Ron (sid: a4GU-7l-0G1jX5v8rgWasS9oxBzUrFic)
+3/30/2021, 7:50:11 PM - INFO - Req from: Oded Ron (sid: a4GU-7l-0G1jX5v8rgWasS9oxBzUrFic)
+3/30/2021, 7:52:11 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:52:23 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:52:37 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:53:00 PM - INFO - Server is running on port: 3031 
+3/30/2021, 7:53:03 PM - ERROR - Cannot get notifications | {} (sid: CYJ_OtlUGxxzzEWTLC3nMIILIzFSLeyn)
+3/30/2021, 7:53:17 PM - DEBUG - auth.service - login with username: oded (sid: MB2EHKl4ltGxw4Ne_gyv_v14128F6pVa)
+3/30/2021, 7:53:19 PM - INFO - Req from: Oded Ron (sid: MB2EHKl4ltGxw4Ne_gyv_v14128F6pVa)

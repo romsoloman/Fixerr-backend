@@ -19,7 +19,7 @@ async function query(filterBy = {}, currentUserId) {
     try {
         const collection = await dbService.getCollection('gig')
         const gigs = await collection.find(criteria).sort({ _id: -1 }).toArray();
-        console.log('gigs.length', gigs.length);
+        // console.log('gigs.length', gigs.length);
         if (!currentUserId) {
             return gigs;
         }
@@ -176,6 +176,6 @@ function _buildCriteria(filterBy) {
             level: levelCriteria
         }
     ]
-    console.log('criteria', criteria);
+    // console.log('criteria', criteria);
     return criteria
 }

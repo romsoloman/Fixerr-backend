@@ -1,6 +1,7 @@
 const logger = require('../../services/logger.service')
 const userService = require('../user/user.service')
 const likeService = require('./like.service')
+const notificationService = require('../notification/notification.service')
 
 async function getLikes(req, res) {
     try {
@@ -32,6 +33,7 @@ async function addLike(req, res) {
         console.log('like', like);
         // like.byUserId = req.session.user._id;
         await likeService.add(like);
+        await notificationService.add(like);
         // like = await likeService.add(like);
         // like.byUser = req.session.user
         // like.aboutUser = await userService.getById(like.aboutUserId)
