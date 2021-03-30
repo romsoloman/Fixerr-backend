@@ -61,21 +61,13 @@ async function update(order) {
         const orderToSave = {
             _id: order._id,
             createdAt: Date.now(),
-            buyer: "mini-user",
-            "totalPrice": 20,
-            "shop": {
-                "_id": "v102",
-                "name": "Hapirat Hadebil",
-                "imgUrl": ""
-            },
-            "items": [
-                {
-                    "_id": "v140",
-                    "name": "Batata Ksbia",
-                    "amount": 2
-                }
-            ],
-            "status": "pending"
+            buyer: order.buyer,
+            totalPrice: +order.totalPrice,
+            seller: order.seller,
+            deliveryTime: order.deliveryTime,
+            items: order.items,
+            extras: order.extras,
+            status: order.status
         }
         const collection = await dbService.getCollection('order')
         await collection.updateOne({ '_id': orderToSave._id }, { $set: orderToSave })
@@ -100,7 +92,7 @@ async function add(order) {
             "3D Mockup",
             "Vector File"
         ],
-        status: "Done"
+        status: "pending"
     }
     orderToSave.buyer._id = ObjectId(orderToSave.buyer._id)
     orderToSave.seller._id = ObjectId(orderToSave.seller._id)
