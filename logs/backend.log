@@ -1969,3 +1969,14 @@
 3/30/2021, 10:06:51 PM - INFO - Server is running on port: 3031 
 3/30/2021, 10:08:45 PM - INFO - Server is running on port: 3031 
 3/30/2021, 10:14:25 PM - INFO - Server is running on port: 3031 
+3/30/2021, 10:20:46 PM - ERROR - Cannot get notifications | {} (sid: sy9i2FEL2gWEfGKtCYmyCFbLhMZH245H)
+3/30/2021, 10:44:13 PM - INFO - Server is running on port: 3031 
+3/30/2021, 10:44:42 PM - ERROR - Cannot get notifications | {} (sid: sqchYAe3dh-dEymiBuQ5JC9GlaFv2KFw)
+3/30/2021, 10:44:58 PM - ERROR - Cannot get notifications | {} (sid: sqchYAe3dh-dEymiBuQ5JC9GlaFv2KFw)
+3/30/2021, 10:45:10 PM - ERROR - Cannot get notifications | {} (sid: sqchYAe3dh-dEymiBuQ5JC9GlaFv2KFw)
+3/30/2021, 10:45:42 PM - ERROR - Cannot get notifications | {} (sid: sqchYAe3dh-dEymiBuQ5JC9GlaFv2KFw)
+3/30/2021, 10:45:55 PM - INFO - Server is running on port: 3031 
+3/30/2021, 10:46:02 PM - ERROR - Cannot get notifications | {} (sid: W57gCN_4YCsp_qPfcdjViyPjyZ13l_uu)
+3/30/2021, 10:46:17 PM - ERROR - Cannot get notifications | {} (sid: yUdJ1x4mYltchrf3I3zWNv87_Sn9Eh4q)
+3/30/2021, 10:46:26 PM - DEBUG - auth.service - login with username: rom (sid: 9-yHaa6JC6yqUfhddxCF0sEroyu_qB47)
+3/30/2021, 10:46:29 PM - INFO - Req from: Rom Soloman (sid: 9-yHaa6JC6yqUfhddxCF0sEroyu_qB47)
